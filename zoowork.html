@@ -9,63 +9,214 @@
     <title>ZOOPAEDIA</title>
     <style>
     body {
-        background-image: url("https://rubyonrails.org/images/imagine.png") ;
+        background-color: #98FB98;
         font-family: sans-serif;
         font-size: 1.3em;
+    }
+    .navbar {
+     margin-top: 0%;
+     scroll-margin-bottom: 20%
+    }
+    .jumbotron{
+     margin-bottom: 0%
+    }
+    .lead{
+     margin-top: 2.5%
     }
 </style>
   </head>
   <body style = "background-color: #98FB98">        
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">ZOOPAEDIA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="input specie name" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-
-            <input class="form-control mr-sm-2" type="search" placeholder="input animal name" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-      <div class="jumbotron jumbotron-fluid text-center">
-            <div class="container">
+    <div class="jumbotron jumbotron-fluid text-center" style=" background-image:url(https://image.freepik.com/free-vector/wild-animals-forest_1308-23904.jpg ); opacity: 1.5;">
+            <div class="container text-white bg-success font-weight-bolder">
               <h1 class="display-4 text-center" >WELCOME TO ZOOPAEDIA</h1>
-              <p class="lead"><P>A UNIQUE NATURE PALACE</p>
+              <p class="lead "><P>A UNIQUE NATURE PALACE</p>
             </div>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">ZOOPAEDIA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                </li>  
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle display-" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Action</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item bg-info"  href="#">View animal</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item bg-success" href="#">Add animal</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item bg-info" href="#">Update animal profile</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item bg-danger" href="#">delete animal</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item bg-info" href="#">view all animals</a>
+                        </div>
+                      </li>              
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle display- " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
+                  <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Mammals</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Birds</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Fish</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Reptiles</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">amphibians</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Arthropods</a>
+                  </div>
+                </li>               
+              </ul>
+              <form class="form-inline my-2 my-lg-0">                    
+                <input class="form-control mr-sm-2" type="search" placeholder="input animal name" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <hr>          
       <div class = "container">
         
-        <p class = "lead">One of the world's most popular nature apps, iNaturalist helps you identify the plants and animals around you. Get connected with a community of over 400,000 scientists and naturalists who can help you learn more about nature! What's more, by recording and sharing your observations, you'll create research quality data for scientists working to better understand and protect nature. iNaturalist is a joint initiative by the California Academy of Sciences and the National Geographic Society.
+        <p class = "lead" id = "about">One of the world's most popular nature apps, iNaturalist helps you identify the plants and animals around you. Get connected with a community of over 400,000 scientists and naturalists who can help you learn more about nature! What's more, by recording and sharing your observations, you'll create research quality data for scientists working to better understand and protect nature. iNaturalist is a joint initiative by the California Academy of Sciences and the National Geographic Society.
         </p>
         <hr>
-        
+        <div class="card">
+                <div class="card-header">
+                  Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>“If you truly love nature, you will find beauty everywhere.”</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Laura Ingalls Wilder</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+              <hr>
+        <div>
+            <p><h2>Do you want to add an animal to Zoopaedia? you can do it right here.</h2></p>
+            <p>please fill up the animal details below: </p>
+            <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Animal Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dog">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleFormControlInput1">Pet Name (Optional)</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jamie">
+                          </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Specie Type</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Mammal</option>
+                        <option>Bird</option>
+                        <option>Fish</option>
+                        <option>Reptile</option>
+                        <option>amphibian</option>
+                        <option>Artropods</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleFormControlFile1">Please upload animal image</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                          </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">More details on added animal</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  <hr>
+            <div><p><h2>In Zoopaedia we have varieties of all you need in Mother-nature.</h2></p></div>
+                  <p>Do you wish to view any of our lovely animals? Just go ahead.</p>
+                  <form>
+                        <div class="form-group">
+                                <label for="exampleFormControlSelect1">Specie Type</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Mammal</option>
+                                  <option>Bird</option>
+                                  <option>Fish</option>
+                                  <option>Reptile</option>
+                                  <option>amphibian</option>
+                                  <option>Artropods</option>
+                                </select>
+                              </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlInput1">Animal Name</label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dog">
+                        </div>
+                        <div class="form-group">
+                                <label for="exampleFormControlInput1">Pet Name (Optional)</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jamie">
+                        </div>                      
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form> 
+                      <hr>
+            <div><p><h2>You can update any of any Zoopaedia animal's details here.</h2></p></div>
+            <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Animal Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dog">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleFormControlInput1">Pet Name (Optional)</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jamie">
+                          </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Specie Type</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Mammal</option>
+                        <option>Bird</option>
+                        <option>Fish</option>
+                        <option>Reptile</option>
+                        <option>amphibian</option>
+                        <option>Artropods</option>
+                      </select>
+                    </div>                    
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">More details on added animal</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>        
+                  <hr>
+            <div><h3><p>Do yu want to delete an animal from the park?</p></h3></div>
+            <p>Please indicate below:</p>
+            <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Animal Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dog">
+                    </div>
+                    <div class="form-group">
+                            <label for="exampleFormControlInput1">Pet Name (Optional)</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jamie">
+                          </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Specie Type</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Mammal</option>
+                        <option>Bird</option>
+                        <option>Fish</option>
+                        <option>Reptile</option>
+                        <option>amphibian</option>
+                        <option>Artropods</option>
+                      </select>
+                    </div>                    
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Why would you want to delete the animal from the park?</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+        </div>
         
     
 
