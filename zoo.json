@@ -1,0 +1,93 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "username": "chukwunedum",
+      "password": "Tehillah"
+    },
+    {
+      "id": "2",
+      "username": "chukwunedum1",
+      "password": "Tehillah1"
+    },
+    {
+      "id": "3",
+      "username": "chukwunedum2",
+      "password": "Tehillah3"
+    }
+  ],
+  "addanimal": [
+    {
+      "id": 1,
+      "animalname": "Antelope",
+      "petname": "pacer",
+      "specie": "goat",
+      "imgurl": "https://images.pexels.com/photos/672706/pexels-photo-672706.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "An antelope is a member of a number of even-toed ungulate species indigenous to various regions in Africa and Eurasia."
+    },
+    {
+      "id": 2,
+      "animalname": "Zebra",
+      "petname": "striper",
+      "specie": "equidae",
+      "imgurl": "https://images.pexels.com/photos/2942206/pexels-photo-2942206.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "Zebras are several species of African equids united by their distinctive black-and-white striped coats. Their stripes come in different patterns, unique to each individual. They are generally social animals that live in small harems to large herds."
+    },
+    {
+      "id": 3,
+      "animalname": "Lion",
+      "petname": "bravo",
+      "specie": "leo",
+      "imgurl": "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "The lion is a species in the family Felidae; it is a muscular, deep-chested cat with a short, rounded head, a reduced neck and round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; male lions have a prominent mane, which is the most recognisable feature of the species."
+    },
+    {
+      "id": 4,
+      "animalname": "Ostrich",
+      "petname": "shakara",
+      "specie": "bird",
+      "imgurl": "https://images.pexels.com/photos/2571166/pexels-photo-2571166.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "The common ostrich, or simply ostrich, is a species of large flightless bird native to certain large areas of Africa. It is one of two extant species of ostriches, the only living members of the genus Struthio in the ratite order of birds."
+    },
+    {
+      "id": 5,
+      "animalname": "Eagle",
+      "petname": "Highflyer",
+      "specie": "bird",
+      "imgurl": "https://images.pexels.com/photos/187842/pexels-photo-187842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "Eagle is the common name for many large birds of prey of the family Accipitridae. Eagles belong to several groups of genera, not all of which are closely related. Most of the 60 species of eagle are from Eurasia and Africa."
+    },
+    {
+      "id": 6,
+      "animalname": "Chameleon",
+      "petname": "cunny",
+      "specie": "reptile",
+      "imgurl": "https://images.pexels.com/photos/567540/pexels-photo-567540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "Chameleons or chamaeleons are a distinctive and highly specialized clade of Old World lizards with 202 species described as of June 2015. These species come in a range of colors, and many species have the ability to change color."
+    },
+    {
+      "id": 7,
+      "animalname": "Tiger",
+      "petname": "captain",
+      "specie": "cat",
+      "imgurl": "https://images.pexels.com/photos/2649841/pexels-photo-2649841.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "The tiger is the largest species among the Felidae and classified in the genus Panthera. It is most recognisable for its dark vertical stripes on reddish-orange fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar."
+    },
+    {
+      "animalname": "khv",
+      "petname": "ouio",
+      "specie": "yugiuygugo87g87giu",
+      "imgurl": "ihoiuh",
+      "condition": "hvkjholy",
+      "details": "jhyu",
+      "id": 8
+    }
+  ]
+}
