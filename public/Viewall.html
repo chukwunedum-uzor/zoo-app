@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="view-all"></div>
+</body>
+<script>
+$(document).ready(function(){
+    // $.get("http://localhost:3000/addanimal", function(data){
+    //     // console.log(data);
+    // })
+    $.ajax({
+        type: 'GET',
+        url: "http://localhost:3000/addanimal",
+        dataType: "json",
+        contentType: "application/json",
+        data: {
+            format: 'json'
+        },
+
+            success:function(data){
+                
+                $(data).each(function (i, animals){
+                                console.log('working')
+                                $(('#view-all').append(`<article>`)
+                                .append(`<h5>`).append(animals[i].animalname)
+                                .append('<hr><h5> Specie: ' + animals[i].specie+'</h5>')
+                                .append('<hr><h5> Pet Name: ' + animals[i].petname+'</h5>')
+                                .append('<hr><h5> Condition: ' + animals[i].condition+'</h5>')
+                                .append('<hr><h5> Details: ' + animals[i].details+'</h5><hr>'))
+                            })
+                        }
+                    })
+
+                })
+            
+ 
+
+
+</script>
+</html>
