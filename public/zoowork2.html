@@ -106,32 +106,37 @@
                   </form>
             </div><br><hr>
             <div class= "container" id="upanim"><p><h2>You can update any Zoopaedia animal's detail here.</h2></p>
-            <form class="w-50">
-                    <div class="form-group">
-                      <label for="exampleFormControlInput1">Animal Name</label>
-                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dog">
-                    </div>
-                    <div class="form-group">
-                            <label for="exampleFormControlInput1">Pet Name (Optional)</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jamie">
+              <form class="w-50">
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Animal Name</label>
+                    <input type="text" class="form-control" id="animalname1" placeholder="Dog">
+                  </div>
+                  <div class="form-group">
+                          <label for="exampleFormControlInput1">Pet Name</label>
+                          <input type="text" class="form-control" id="petname1" placeholder="Jamie">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Animal Specie</label>
+                            <input type="text" class="form-control" id="animalspecie1" placeholder="Jamie">
                           </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlSelect1">Specie Type</label>
-                      <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Mammal</option>
-                        <option>Bird</option>
-                        <option>Fish</option>
-                        <option>Reptile</option>
-                        <option>amphibian</option>
-                        <option>Artropods</option>
-                      </select>
-                    </div>                    
-                    <div class="form-group">
-                      <label for="exampleFormControlTextarea1">More details on added animal</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div class="form-group">
+                      <label for="exampleFormControlInput1">Animal URL</label>
+                      <input type="text" class="form-control" id="animalurl1" placeholder="Jamie">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>  
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Animal Condition</label>
+                        <textarea class="form-control" id="animalcondition1" rows="3"></textarea>
+                      </div>  
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">More details on added animal</label>
+                    <textarea class="form-control" id="animaldetails1" rows="3"></textarea>
+                  </div>                    
+                  <div class="form-group">
+                      <label for="exampleFormControlInput1">Animal Id</label>
+                      <input type="text" class="form-control" id="inputid1" placeholder="eg:1">
+                    </div> 
+                  <button type="submit" class="btn btn-primary"id= 'submitadd1'>Submit</button>
+                </form>
                   </div>     
                   <br> 
                   <hr>
@@ -139,29 +144,11 @@
                   <p>Please indicate below:</p>
                   <form class="w-50">
                           <div class="form-group">
-                            <label for="exampleFormControlInput1">Animal Name</label>
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dog">
+                            <label for="exampleFormControlInput1">Animal Id</label>
+                            <input type="text" class="form-control" id="inputid" placeholder="Dog">
                           </div>
-                          <div class="form-group">
-                                  <label for="exampleFormControlInput1">Pet Name (Optional)</label>
-                                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jamie">
-                                </div>
-                          <div class="form-group">
-                            <label for="exampleFormControlSelect1">Specie Type</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                              <option>Mammal</option>
-                              <option>Bird</option>
-                              <option>Fish</option>
-                              <option>Reptile</option>
-                              <option>amphibian</option>
-                              <option>Artropods</option>
-                            </select>
-                          </div>                    
-                          <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Why would you want to delete the animal from the park?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                          </div>
-                          <button type="submit" class="btn btn-primary">Submit</button>
+                         
+                          <button type="submit" class="btn btn-primary" id="deletebtn">Submit</button>
                         </form>
                         <br>
                         <hr>

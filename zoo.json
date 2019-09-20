@@ -13,27 +13,27 @@
     {
       "id": "3",
       "username": "chukwunedum2",
-      "password": "Tehillah3"
+      "password": "Tehillah2"
     }
   ],
   "addanimal": [
     {
-      "id": 1,
-      "animalname": "Antelope",
-      "petname": "pacer",
-      "specie": "goat",
-      "imgurl": "https://images.pexels.com/photos/672706/pexels-photo-672706.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "animalname": "Zebra",
+      "petname": "Striper",
+      "specie": "Equidae",
+      "imgurl": "https://images.pexels.com/photos/761437/pexels-photo-761437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "condition": "Healthy",
-      "details": "An antelope is a member of a number of even-toed ungulate species indigenous to various regions in Africa and Eurasia."
+      "details": "Zebras are several species of African equids united by their distinctive black-and-white striped coats. Their stripes come in different patterns, unique to each individual. They are generally social animals that live in small harems to large herds.",
+      "id": 1
     },
     {
-      "id": 2,
-      "animalname": "Zebra",
-      "petname": "striper",
-      "specie": "equidae",
-      "imgurl": "https://images.pexels.com/photos/2942206/pexels-photo-2942206.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "animalname": "Antelope",
+      "petname": "Pacer",
+      "specie": "Chordata",
+      "imgurl": "https://images.pexels.com/photos/259291/pexels-photo-259291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "condition": "Healthy",
-      "details": "Zebras are several species of African equids united by their distinctive black-and-white striped coats. Their stripes come in different patterns, unique to each individual. They are generally social animals that live in small harems to large herds."
+      "details": "An antelope is a member of a number of even-toed ungulate species indigenous to various regions in Africa and Eurasia.",
+      "id": 2
     },
     {
       "id": 3,
@@ -81,13 +81,59 @@
       "details": "The tiger is the largest species among the Felidae and classified in the genus Panthera. It is most recognisable for its dark vertical stripes on reddish-orange fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar."
     },
     {
-      "animalname": "khv",
-      "petname": "ouio",
-      "specie": "yugiuygugo87g87giu",
-      "imgurl": "ihoiuh",
-      "condition": "hvkjholy",
-      "details": "jhyu",
+      "animalname": "Owl",
+      "petname": "Aladdin",
+      "specie": "Aves",
+      "imgurl": "https://images.pexels.com/photos/34533/owl-glitter-stuffed-animal-cute.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "condition": "Healthy",
+      "details": "Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
       "id": 8
-    }
+    },
+    {
+        "animalname": "Chimpanzee",
+        "petname": "Jackie",
+        "specie": "Monkey",
+        "imgurl": "https://images.pexels.com/photos/33535/primate-ape-thinking-mimic.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "condition": "Healthy",
+        "details": "The genus Pan consists of two extant species: the common chimpanzee and the bonobo. Taxonomically, these two ape species are collectively termed panins; however, both species are more commonly referred to collectively using the generalized term chimpanzees, or chimps.",
+        "id": 9
+      },
+      {
+        "animalname": "Orangutan",
+        "petname": "Flashy",
+        "specie": "Monkey",
+        "imgurl": "https://images.pexels.com/photos/2656647/pexels-photo-2656647.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "condition": "Healthy",
+        "details": "The orangutans are three extant species of great apes native to Indonesia and Malaysia. Orangutans are currently only found in the rainforests of Borneo and Sumatra. Classified in the genus Pongo, orangutans were originally considered to be one species.",
+        "id": 10
+      },
+      {
+        "animalname": "Tortoise",
+        "petname": "Shirk",
+        "specie": "Reptilia",
+        "imgurl": "https://images.pexels.com/photos/1264060/pexels-photo-1264060.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "condition": "Healthy",
+        "details": "Tortoises are reptile species of the family Testudinidae of the order Testudines. They are particularly distinguished from other turtles by being land-dwelling, while many turtle species are at least partly aquatic. However, like other turtles, tortoises have a shell to protect from predation and other threats.",
+        "id": 11
+      },
+      {
+        "animalname": "Owl",
+        "petname": "Aladdin",
+        "specie": "Aves",
+        "imgurl": "https://images.pexels.com/photos/34533/owl-glitter-stuffed-animal-cute.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "condition": "Healthy",
+        "details": "Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
+        "id": 12
+      },
+      {
+        "animalname": "Arctic Wolf",
+        "petname": "Wolverine",
+        "specie": "Canines",
+        "imgurl": "https://images.pexels.com/photos/755447/pexels-photo-755447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "condition": "Healthy",
+        "details": "The wolf, also known as the gray/grey wolf, is a canine native to the wilderness and remote areas of Eurasia and North America. It is the largest extant member of its family, with males averaging 43–45 kg and females 36–38.5 kg.",
+        "id": 13
+      }
+      
   ]
 }

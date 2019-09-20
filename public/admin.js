@@ -1,4 +1,6 @@
-$('#myModal').submit(function (e){
+$(document).ready(function(){
+
+$('#myModal').click(function (e){
 e.preventDefault();
 
     var username = $(".username").val();
@@ -14,12 +16,14 @@ e.preventDefault();
             },
 
                 success: function(data) {
-                    if(username == 'chukwunedum' && password == 'Tehillah'){
-                        alert('admin Login');
+                    var animal1 = data;
+                    for (var i=0; i<animal1.length; i++){
+                    if(username === animal1[i].username && password === animal1[i].password){
+                        alert('admin login');
                         window.location.assign('file:///C:/Users/UZOR/Desktop/new-zoo/public/zoowork2.html');
-                    }else{
-                        alert('incorrect credentials...Please try again')
+                    }
                     }
                 }
         })
     })
+})
